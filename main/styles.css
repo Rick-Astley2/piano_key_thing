@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.things {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: purple;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+button {
+    padding: 40px 80px;
+    margin: 5px;
+    background-color: rgb(26, 75, 3);
+    color: white;
+    border-radius: 5%;
+}
